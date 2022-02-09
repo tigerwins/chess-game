@@ -1,0 +1,76 @@
+﻿Chess
+
+Features
+Board
+    • Row A-H, Rank 1-8, labeled
+    • Board squares correctly colored white and black alternating with the h1 square being white
+Display pieces on board (white and black)
+    • Pawn
+    • Knight
+    • Bishop
+    • Rook
+    • Queen
+    • King
+Setup pieces on the board in their starting positions
+Rules
+    • Movement
+        ◦ Pawn movement
+            ▪ Forward one
+            ▪ Forward two if have not moved yet
+            ▪ Capture forward diagonally one if opponent’s piece exists
+            ▪ Promotion to another piece of player’s choice when on the last row
+            ▪ En passant
+        ◦ Knight movement
+            ▪ Two spaces in one direction and one space perpendicularly
+        ◦ Bishop movement
+            ▪ Diagonally any number of spaces
+            ▪ Cannot move past a piece that is in its way
+        ◦ Rook movement
+            ▪ Horizontally or vertically any number of spaces
+            ▪ Cannot move past a piece that is in its way
+        ◦ Queen movement
+            ▪ Move any number of spaces in any straight line direction
+            ▪ Cannot move past a piece that is in its way
+        ◦ King movement
+            ▪ One space in any direction
+            ▪ Cannot be moved into check
+    • Capture
+        ◦ If you move onto the space of an opponent’s piece, it is captured
+        ◦ Cannot capture own pieces
+        ◦ En passant edge case – if pawn is on its 5th rank, it can capture an opposing pawn by moving diagonally forward one space if that pawn just took its first
+    • Alternating movement
+        ◦ White moves first
+    • Check
+        ◦ The King is in check if an opposing piece can capture the king
+        ◦ If a player’s King is in check, the player must either:
+            ▪ Move so that it is no longer in check OR
+            ▪ Move a piece in front of the King to block check OR
+            ▪ Capture the piece that is checking the King
+    • Checkmate
+        ◦ The King is in check, and the player cannot get out of check with any of the three methods listed above. The game is over, and the player whose King is checkmated has lost, and the other player has won.
+    • Castle (king-side and queen-side)
+        ◦ If King and Rook have not moved yet, the King can move two spaces towards the Rook, and the Rook will move to the other side of the King (as long as the King is not in check and none of the spaces the King will move through would be in check)
+    • Draw conditions
+        ◦ Stalemate
+            ▪ Occurs when it is a player’s turn and their King is NOT in check, but they cannot make a move with ANY piece that would NOT result in the King being in check. 
+        ◦ 40 moves with no capture
+        ◦ 3-move repetition
+Other
+    • Offer Draw
+        ◦ A player can offer a draw. If the opposing player accepts, the game would be considered a tie.
+    • Resign
+        ◦ On their turn, the player can choose to forfeit the game and take a loss.
+Bonus
+    • Flip the board to show other side after each player moves
+    • Show legal moves on the board when piece has been clicked on/picked up
+    • Record of moves
+        ◦ Show game notation on the side of the board
+        ◦ Add text for each move as each player moves
+    • Timer
+        ◦ Allow players to set a time control
+        ◦ Each player’s timer alternates when one player has made a move
+        ◦ A player will lose if their timer hits zero
+    • Take-Back
+        ◦ Allows a player to take back their last move if it is not their turn
+
+              
