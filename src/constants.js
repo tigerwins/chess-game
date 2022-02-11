@@ -3,6 +3,14 @@ export default {
     White: "white",
     Black: "black"
   },
+  PieceName: {
+    Pawn: "pawn",
+    Knight: "knight",
+    Bishop: "bishop",
+    Rook: "rook",
+    Queen: "queen",
+    King: "king"
+  },
   NotationLetter: {
     Pawn: '',
     Knight: 'N',
