@@ -1,10 +1,10 @@
 export default {
   Color: {
-    White: "white",
-    Black: "black"
+    White: 'white',
+    Black: 'black'
   },
   NotationLetter: {
-    Pawn: '',
+    Pawn: 'P',
     Knight: 'N',
     Bishop: 'B',
     Rook: 'R',
@@ -32,16 +32,6 @@ export default {
     H: '0'
   },
   WhiteRank: {
-    1: '0',
-    2: '1',
-    3: '2',
-    4: '3',
-    5: '4',
-    6: '5',
-    7: '6',
-    8: '7'
-  },
-  BlackRank: {
     1: '7',
     2: '6',
     3: '5',
@@ -50,5 +40,15 @@ export default {
     6: '2',
     7: '1',
     8: '0'
+  },
+  BlackRank: {
+    1: '0',
+    2: '1',
+    3: '2',
+    4: '3',
+    5: '4',
+    6: '5',
+    7: '6',
+    8: '7'
   }
-}
+};
